@@ -8,7 +8,7 @@ export function Header() {
       <div className="container flex h-16 items-center">
         <Link href="/" className="flex items-center gap-2">
           <SemicolonLogo/>
-          <span className="text-lg font-semibold">Semicolon Labs</span>
+          <span className="text-lg font-semibold">Labs by Semicolon</span>
         </Link>
         <nav className="ml-auto flex items-center gap-4">
           <ThemeToggle />

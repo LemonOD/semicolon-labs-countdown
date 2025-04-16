@@ -66,22 +66,22 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
       <div className="grid grid-cols-4 gap-2 text-center">
         <div className="flex flex-col rounded-lg bg-card p-3 shadow-sm">
           <span className="text-3xl font-bold">{timeLeft.days}</span>
-          <span className="text-xs text-muted-foreground">Days</span>
+          <span className="text-xs text-muted-foreground">{timeLeft.days > 1 ? 'Days': 'Day'}</span>
         </div>
         <div className="flex flex-col rounded-lg bg-card p-3 shadow-sm">
           <span className="text-3xl font-bold">{timeLeft.hours}</span>
-          <span className="text-xs text-muted-foreground">Hours</span>
+          <span className="text-xs text-muted-foreground">{timeLeft.hours > 1 ? 'Hours': 'Hour'}</span>
         </div>
         <div className="flex flex-col rounded-lg bg-card p-3 shadow-sm">
           <span className="text-3xl font-bold">{timeLeft.minutes}</span>
-          <span className="text-xs text-muted-foreground">Minutes</span>
+          <span className="text-xs text-muted-foreground">{timeLeft.minutes > 1 ? 'minutes': 'minute'}</span>
         </div>
         <div className="flex flex-col rounded-lg bg-card p-3 shadow-sm">
           <span className="text-3xl font-bold">{timeLeft.seconds}</span>
-          <span className="text-xs text-muted-foreground">Seconds</span>
+          <span className="text-xs text-muted-foreground">{timeLeft.seconds > 1 ? 'seconds': 'second'}</span>
         </div>
       </div>
-      <div className="mt-4 text-center text-sm text-muted-foreground">Launching on Friday, April 18, 2025 at 00:01</div>
+      <div className="mt-4 text-center text-sm text-muted-foreground">Go-Live: Friday, April 18, 2025 at 00:01 WAT</div>
     </div>
   )
 }

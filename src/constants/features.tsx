@@ -8,8 +8,8 @@ interface Feature {
 
 export const features: Feature[] = [
     {
-        title: "Innovative Projects",
-        description: "Discover cutting-edge projects developed by our talented teams.",
+        title: "Enterprise-Ready Solutions",
+        description: "From rapid prototypes to production-grade systems across fintech, healthtech, edtech, and more.",
         icon: function Icon(props) {
             return (
                 <svg
@@ -30,8 +30,8 @@ export const features: Feature[] = [
         },
     },
     {
-        title: "Research & Development",
-        description: "Explore our research initiatives pushing the boundaries of technology.",
+        title: "Deep Tech & Applied R&D",
+        description: "Explore advanced work in machine learning, generative AI, decentralized identity, secure infrastructure, and intelligent automation.",
         icon: function Icon(props) {
             return (
                 <svg
@@ -53,8 +53,8 @@ export const features: Feature[] = [
         },
     },
     {
-        title: "Tech Talent",
-        description: "Meet the brilliant minds behind Semicolon Africa's innovations.",
+        title: "Builder-Led Innovation",
+        description: "Engage with the engineers, designers, researchers, and product leaders shaping Africa’s role in the global digital economy.",
         icon: function Icon(props) {
             return (
                 <svg

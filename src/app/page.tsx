@@ -10,19 +10,25 @@ export default function Home() {
       <main className="flex-1">
         <section className="container flex flex-col items-center justify-center gap-6 py-12 text-center md:py-16 lg:py-24">
           <div className="mx-auto max-w-3xl space-y-4">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Semicolon Labs</h1>
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Labs by Semicolon</h1>
             <p className="mx-auto max-w-[700px] text-lg text-muted-foreground md:text-xl">
-              Showcasing innovative works from Semicolon Africa's technology labs.
+              Strategic Innovation. Engineered from Africa.
             </p>
           </div>
           <div className="w-full max-w-md">
             <CountdownTimer targetDate="2025-04-18T00:01:00" />
           </div>
-          <div className="mx-auto mt-8 max-w-2xl text-center">
+          <div className="mx-auto mt-8 max-w-3xl text-center">
             <h2 className="mb-4 text-2xl font-semibold">Coming Soon</h2>
             <p className="text-muted-foreground">
-              We're working on something exciting. Our platform will showcase projects, research, and innovations from
-              Semicolon Africa's labs. Stay tuned for the official launch.
+              Labs by Semicolon is the applied innovation and R&D unit of Semicolon Africa —
+              where emerging technologies, domain expertise, and talent converge to solve complex
+              challenges across industries.
+            </p>
+            <p className="text-muted-foreground pt-10">
+              Our platform showcases the future of enterprise and society through projects and prototypes
+              rooted in AI, cloud infrastructure, blockchain/Web3, data engineering, cybersecurity,
+              and human-centered systems design — all built by Africa’s rising generation of builders and thinkers.
             </p>
           </div>
         </section>

@@ -81,7 +81,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
           <span className="text-xs text-muted-foreground">{timeLeft.seconds > 1 ? 'seconds': 'second'}</span>
         </div>
       </div>
-      <div className="mt-4 text-center text-sm text-muted-foreground">Go-Live: Friday, April 23, 2025 at 00:01 WAT</div>
+      <div className="mt-4 text-center text-sm text-muted-foreground">Go-Live: Wednesday, April 23, 2025 at 00:01 WAT</div>
     </div>
   )
 }

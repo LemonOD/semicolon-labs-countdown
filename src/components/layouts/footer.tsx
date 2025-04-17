@@ -6,8 +6,9 @@ export function Footer() {
       <div className="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
         <div className="flex flex-col gap-0.5">
           <div className="flex items-center gap-2">
-            <SemicolonLogo />
-            <span className="text-sm font-semibold">Labs by Semicolon</span>
+            <img
+                src="/Labs by Semicolon Primary Logo 1.svg"
+                alt="labsLogo"/>
           </div>
           <div>
             <small className="text-center md:text-sm text-muted-foreground md:font-semibold">Built to Solve. Structured for Scale.

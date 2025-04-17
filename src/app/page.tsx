@@ -10,13 +10,13 @@ export default function Home() {
       <main className="flex-1">
         <section className="container flex flex-col items-center justify-center gap-6 py-12 text-center md:py-16 lg:py-24">
           <div className="mx-auto max-w-3xl space-y-4">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Labs by Semicolon</h1>
+            <h1 className="text-4xl font-bold text-blue-800 tracking-tighter sm:text-5xl md:text-6xl">Labs by Semicolon</h1>
             <p className="mx-auto max-w-[700px] text-lg text-muted-foreground md:text-xl">
               Strategic Innovation. Engineered from Africa.
             </p>
           </div>
           <div className="w-full max-w-md">
-            <CountdownTimer targetDate="2025-04-18T00:01:00" />
+            <CountdownTimer targetDate="2025-04-23T00:01:00" />
           </div>
           <div className="mx-auto mt-8 max-w-3xl text-center">
             <h2 className="mb-4 text-2xl font-semibold">Coming Soon</h2>

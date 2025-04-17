@@ -7,7 +7,8 @@ export function Header() {
       <div className="container flex h-16 items-center">
         <Link href="/" className="flex items-center gap-2">
           <img
-              src="/Labs by Semicolon Primary Logo 1.svg"
+              className="h-10"
+              src="/img.png"
            alt="labsLogo"/>
           {/*<span className="text-lg font-semibold">Labs by Semicolon</span>*/}
         </Link>

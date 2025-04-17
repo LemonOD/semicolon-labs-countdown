@@ -7,7 +7,8 @@ export function Footer() {
         <div className="flex flex-col gap-0.5">
           <div className="flex items-center gap-2">
             <img
-                src="/Labs by Semicolon Primary Logo 1.svg"
+                className="h-10"
+                src="/img.png"
                 alt="labsLogo"/>
           </div>
           <div>

@@ -9,7 +9,7 @@ export const metadata = {
     title: "Semicolon Labs -Coming Soon",
     description: "Showcasing innovative works from Semicolon Africa's technology labs.",
     icons: {
-        icon: "/Labs by Semicolon Primary Logo 1.svg",
+        icon: "/labsLogo.png",
     },
 }
 export default function RootLayout({children,}: { children: React.ReactNode }) {
